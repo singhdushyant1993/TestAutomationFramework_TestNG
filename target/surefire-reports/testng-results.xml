@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-29T19:49:25 IST" name="Mobile Portal Test Suite" finished-at="2020-04-29T19:50:00 IST" duration-ms="35017">
+    <groups>
+    </groups>
+    <test started-at="2020-04-29T19:49:25 IST" name="Sanity Test Cases" finished-at="2020-04-29T19:50:00 IST" duration-ms="35017">
+      <class name="com.mobilePortal.qa.testCases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mobilePortal.qa.testCases.LoginPageTest@4a29f290]" started-at="2020-04-29T19:49:25 IST" name="setup" finished-at="2020-04-29T19:49:31 IST" duration-ms="6662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLoginPage()[pri:1, instance:com.mobilePortal.qa.testCases.LoginPageTest@4a29f290]" started-at="2020-04-29T19:49:31 IST" name="validateLoginPage" description="Test case description: Verify login page title" finished-at="2020-04-29T19:49:34 IST" duration-ms="2757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mobilePortal.qa.testCases.LoginPageTest@4a29f290]" started-at="2020-04-29T19:49:34 IST" name="tearDown" finished-at="2020-04-29T19:49:34 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mobilePortal.qa.testCases.LoginPageTest@4a29f290]" started-at="2020-04-29T19:49:34 IST" name="setup" finished-at="2020-04-29T19:49:40 IST" duration-ms="5591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLogin()[pri:2, instance:com.mobilePortal.qa.testCases.LoginPageTest@4a29f290]" started-at="2020-04-29T19:49:40 IST" name="validateLogin" description="Test case description: Login to admin portal and verify it" finished-at="2020-04-29T19:49:59 IST" duration-ms="19672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mobilePortal.qa.testCases.LoginPageTest@4a29f290]" started-at="2020-04-29T19:49:59 IST" name="tearDown" finished-at="2020-04-29T19:50:00 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mobilePortal.qa.testCases.LoginPageTest -->
+    </test> <!-- Sanity Test Cases -->
+  </suite> <!-- Mobile Portal Test Suite -->
+</testng-results>

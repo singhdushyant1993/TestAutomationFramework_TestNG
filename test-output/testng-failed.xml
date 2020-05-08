@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mobilePortal.qa.ExtendReportListener.ExtendReportListener"/>
+    <listener class-name="com.mobilePortal.qa.util.TestFailureListener"/>
+  </listeners>
+  <test thread-count="5" name="Sanity Test Cases(failed)">
+    <classes>
+      <class name="com.mobilePortal.qa.testCases.MobileAdminPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateZappPortalLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobilePortal.qa.testCases.MobileAdminPageTest -->
+      <class name="com.mobilePortal.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validateLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mobilePortal.qa.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Sanity Test Cases(failed) -->
+</suite> <!-- Failed suite [Automation Test Suite] -->

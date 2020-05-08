@@ -1,0 +1,12 @@
+com/mobilePortal/qa/util/WebEventListener.class
+com/mobilePortal/qa/base/TestBase.class
+com/mobilePortal/qa/pages/DeletemacOSPolicyPage.class
+com/mobilePortal/qa/util/TestUtil.class
+com/mobilePortal/qa/pages/LoginPage.class
+com/mobilePortal/qa/pages/EditmacOSPolicyPage.class
+com/mobilePortal/qa/Listeners/TestListener.class
+com/mobilePortal/qa/pages/AddmacOSPolicyPage.class
+com/mobilePortal/qa/pages/MobileAdminPage.class
+com/mobilePortal/qa/util/TestListener.class
+com/mobilePortal/qa/Listeners/TestAllureListener.class
+com/mobilePortal/qa/Listeners/GenerateExtendReportListener.class

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.mobilePortal.qa.Listeners.GenerateExtendReportListener" />
+		<listener class-name="com.mobilePortal.qa.util.TestListener"/>
+		<listener class-name="com.mobilePortal.qa.Listeners.TestAllureListener" />
+		
+	</listeners>
+	
+
+	<test name="Sanity Test Cases">
+		<classes>
+			<class name="com.mobilePortal.qa.testCases.LoginPageTest"></class>
+			<class name="com.mobilePortal.qa.testCases.MobileAdminPageTest"></class>
+			<class name="com.mobilePortal.qa.testCases.AddmacOSPolicyPageTest"></class>
+			<class name="com.mobilePortal.qa.testCases.EditmacOSPolicyPageTest"></class>
+			<class name="com.mobilePortal.qa.testCases.DeletemacOSPolicyPageTest"></class>
+			
+		</classes>
+	</test>
+ 
+
+</suite>

@@ -1,0 +1,5 @@
+com/mobilePortal/qa/testCases/DeletemacOSPolicyPageTest.class
+com/mobilePortal/qa/testCases/AddmacOSPolicyPageTest.class
+com/mobilePortal/qa/testCases/MobileAdminPageTest.class
+com/mobilePortal/qa/testCases/LoginPageTest.class
+com/mobilePortal/qa/testCases/EditmacOSPolicyPageTest.class
